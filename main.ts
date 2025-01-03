@@ -1,4 +1,4 @@
-#!/usr/bin/env -S deno run -A
+#!/usr/bin/env -S deno run --allow-read --allow-write
 
 const data = await Deno.readTextFile("./text/input.txt");
 const lines = data.split("\n");
